@@ -6,8 +6,8 @@ Version:	1.0.7
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications/Multimedia
-Source0:	http://dl.sourceforge.net/xineliboutput/%{name}-%{version}.tgz
-# Source0-md5:	cea2b03b4205cd039867247443bbcee5
+Source0:	http://dl.sourceforge.net/xineliboutput/%{name}-%{version}.tar.lzma
+# Source0-md5:	55bc903eb5181806ed71a9d11333e73f
 URL:		http://sourceforge.net/projects/xineliboutput/
 BuildRequires:	dbus-glib-devel
 BuildRequires:	libextractor-devel >= 0.5.20
