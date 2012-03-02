@@ -50,6 +50,7 @@ install -d $RPM_BUILD_ROOT{%{_libdir}/vdr,%{_localedir}}
 	DESTDIR=$RPM_BUILD_ROOT \
 	LOCALEDIR=$RPM_BUILD_ROOT%{_localedir}
 
+# TODO: use install -p to ensure +x bit
 cp lib/lib*.so.* $RPM_BUILD_ROOT%{_libdir}/vdr
 
 %find_lang %{name}
